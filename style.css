@@ -303,4 +303,76 @@ h1{
     width: 35px;
 }
 
+/*Media Accueil*/
+
+@media screen and (max-width: 1300px){
+    .accueil{
+        width: 100%;
+        background-position: center ;
+    }
+}
+@media screen and (max-width: 1000px){
+    .accueil{
+        width: 700px;
+        min-height: 0 ;
+    }
+    h1{
+        font-size: 70px;
+        margin: 0 30px 0 30px ;
+        padding-top: 100px;
+    }
+    .accueil p {
+        margin: 20px 0 20px 30px;
+    }
+    .btn-accueil1{
+        margin: 10px 0 0 30px;
+    }
+    .media{
+        margin-left: 30px;
+    }
+    .btn-rond{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .accueil{
+        height: 600px;
+    }
+    h1{
+        font-size: 50px;
+        margin: 0 30px;
+    }
+    .accueil p{
+        font-size: 20px;
+    }
+    .btn-rond-menu{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 35px;
+    }
+    .accueil p {
+        font-size: 16px;
+    }
+    .btn-accueil{
+        width: 120px;
+        font-size:13px;
+        height: 40px;
+        margin: 10px 0 0 5px;
+    }
+    .btn-accueil1{
+        margin: 10px 0 0 30px;
+    }
+    .media{
+        width: 40px;
+        height: 40px;
+    }
+    .icone-medias{
+        width: 20px;
+    }
+}
 
