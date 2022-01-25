@@ -87,26 +87,31 @@ body{
 
 }
 .cercle-portrait img{
-    width: 100px;
-    position: absolute;
+    width: 150px;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .logo-cercle {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     position: absolute;
     cursor: pointer;
 }
 
 .logo-cercle img {
-    width: 60px;
+    width: 100px;
     position: absolute;
     top: 40%;
     left: 10%;
     transform: translate(-50%, -50%);
+}
+.photo-profil {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
 }
 
 @media screen and (max-width: 1300px) {
@@ -216,7 +221,7 @@ body{
 }
 h1{
     font-size: 90px;
-    font-family: 'Abril Fatface', sans-serif ;
+    font-family: 'Abril Fatface', sans serif ;
     margin: 0 60px;
     padding-top: 210px;
 }
