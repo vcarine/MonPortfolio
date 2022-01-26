@@ -76,7 +76,7 @@ body{
     height: 25%;
     background: #333;
 }
-.cercle-portrait {
+.portrait {
     margin: 20px 0;
     width: 100px;
     height: 100px;
@@ -86,7 +86,7 @@ body{
                 -26px -26px 53px #3d3d3d;
 
 }
-.cercle-portrait img{
+.portrait img{
     width: 100px;
     position: relative;
     top: 50%;
@@ -102,17 +102,13 @@ body{
 }
 
 .logo-cercle img {
-    width: 100px;
+    width:50px;
     position: absolute;
     top: 40%;
     left: 10%;
     transform: translate(-50%, -50%);
 }
-.photo-profil {
-    text-align: center;
-    margin: 0 auto;
-    float: none;
-}
+
 
 @media screen and (max-width: 1300px) {
     .nav-gauche {
@@ -279,9 +275,7 @@ h1{
     background: transparent;
     border: 2px solid #333;
 }
-/*.icone-medias{
-    width: 30px;
-}*/
+
 .btn-rond {
     width: 60px;
     height: 60px;
@@ -299,9 +293,8 @@ h1{
 }
 
 .img-thumbnail{
-    width: 30px;
+    width: 50px;
     margin: 5px;
-
 }
 
 @keyframes pulse {
