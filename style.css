@@ -87,7 +87,8 @@ body{
 
 }
 .portrait img{
-    width: 100px;
+    width: 150px;
+    height: 130px;
     border-radius: 50%;
     position: relative;
     top: 50%;
