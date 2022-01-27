@@ -210,7 +210,7 @@ body{
 
 .accueil{
     background-size: cover;
-    background: url(image/accueil.jpg) no-repeat right;
+    background: url(../../image/accueil.jpg) no-repeat right;
     height: 100vh;
     min-height: 900px;
     width: calc(100% - 300px);
