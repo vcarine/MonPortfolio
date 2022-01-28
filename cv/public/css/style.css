@@ -90,7 +90,7 @@ section .heading h2 {
     color:#333;
     text-transform: uppercase;
     text-align: center;
-    margin: 20px 50px;
+    margin: 10px 50px;
     padding: 20px;
 }
 
@@ -100,7 +100,8 @@ section .heading h2 {
 }
 .rounded-circle{
     border-radius: 50%;
-    margin: 90px 90px;
+    margin: 30px 90px;
+    padding-top: 90px;
 }
 .button1 {
     font-weight: bold;
