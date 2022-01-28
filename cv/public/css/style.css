@@ -73,9 +73,11 @@ section .heading h2 {
 /*about*/
 
 #about {
-    padding-top: 100px;
-    background: #333333;
-    padding-bottom: 60px;
+    width: 100%;
+    height: 900px;
+    background: url(../../images/image1.jpg) no-repeat center;
+    background-size: cover;
+
 }
 
 .photo-profil {
@@ -85,46 +87,47 @@ section .heading h2 {
 }
 
 #about .heading h1 {
-    color: white;
+    color:#333;
     text-transform: uppercase;
-    padding-bottom: 30px;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 20px;
 }
 
 #about .heading h3 {
-
+    color:#333;
     padding-bottom: 30px;
 }
 .rounded-circle{
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin: 90px 90px;
 }
 .button1 {
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
-    border: 1px solid white;
+    color: #333;
+    border: 1px solid #333;
     display: inline;
-    margin: 20px;
+    margin: 50px;
     padding: 18px 50px;
     border-radius: 3px;
     text-decoration: none;
     transition: all 0.3s;
-
-
 }
 
 .button1:hover {
-    background: white;
-    color: #333333;
+    background: #333;
+    color: #f1f1f1
+;
 
 }
 
 .btn-rond {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     bottom: 20px;
-    left: 60px;
+    left: 200px;
     border-radius: 50%;
     display:flex ;
     justify-content: center;
@@ -155,7 +158,7 @@ section .heading h2 {
 #competences .heading h2 {
     color: #333333;
     text-transform: uppercase;
-    margin: 15px 0px;
+
 
 }
 
