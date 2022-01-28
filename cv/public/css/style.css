@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     margin: 25px;
 }
+h3{
+    color: #f1f1f1;
+}
 h4{
     margin: 10px;
     text-align: center;
@@ -70,9 +73,8 @@ section .heading h2 {
 /*about*/
 
 #about {
-
     padding-top: 100px;
-    background: #f1f1f1;
+    background: #333333;
     padding-bottom: 60px;
 }
 
@@ -83,21 +85,24 @@ section .heading h2 {
 }
 
 #about .heading h1 {
-    color: #333333;
+    color: white;
     text-transform: uppercase;
     padding-bottom: 30px;
 }
 
 #about .heading h3 {
-    color: #333333;
+
     padding-bottom: 30px;
 }
-
+.rounded-circle{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 .button1 {
     font-weight: bold;
     text-transform: uppercase;
-    color: #333;
-    border: 1px solid #333333;
+    color: white;
+    border: 1px solid white;
     display: inline;
     margin: 20px;
     padding: 18px 50px;
@@ -109,19 +114,31 @@ section .heading h2 {
 }
 
 .button1:hover {
-    background: #333;
-    color: #f1f1f1;
+    background: white;
+    color: #333333;
 
 }
 
-.monImage{
-    background-size: cover;
-    background: url(../../images/ordinateur.jpg) no-repeat right;
-    height: 100vh;
-    min-height: 900px;
-    width: calc(100% - 300px);
-    margin-left: auto;
-    position: relative;
+.btn-rond {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer ;
+    box-shadow: 0 0 0 0 #333;
+    background: #333;
+    animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+    to{
+        box-shadow: 0 0 0 8px rgba(255,255,255,0.01);
+    }
 }
 /*COMPETENCES*/
 

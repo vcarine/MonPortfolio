@@ -294,11 +294,6 @@ h1{
     animation: pulse 1.3s infinite;
 }
 
-.img-thumbnail{
-    width: 50px;
-    margin: 5px;
-}
-
 @keyframes pulse {
     to{
         box-shadow: 0 0 0 8px rgba(255,255,255,0.01);
@@ -307,6 +302,11 @@ h1{
 
 .logo-btn-rond-accueil{
     width: 35px;
+}
+
+.img-thumbnail{
+    width: 50px;
+    margin: 5px;
 }
 
 /*Media Accueil*/
