@@ -16,3 +16,21 @@ if (window.matchMedia('(max-width)')){
         })
     })
 }
+
+
+//Animation de L'écriture
+
+const txtAni = document.querySelector('.text-animation');
+
+let typewriter = new Typewriter(txtAni, {
+    loop:false,
+    deleteSpeed:20
+
+})
+typewriter
+    .pauseFor(1800)
+    .change(20)
+    .SOMITEM_DATATYPE_STRING('Salut')
+    .start()
+
+
