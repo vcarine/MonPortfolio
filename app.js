@@ -20,17 +20,14 @@ if (window.matchMedia('(max-width)')){
 
 //Animation de L'écriture
 
-const txtAni = document.querySelector('.text-animation');
+const txtAnim = document.querySelector('.text-animation');
 
-let typewriter = new Typewriter(txtAni, {
-    loop:false,
+let typewriter = new Typewriter(txtAnim,{
+    loop: false,
     deleteSpeed:20
-
 })
 typewriter
     .pauseFor(1800)
-    .change(20)
-    .SOMITEM_DATATYPE_STRING('Salut')
+    .changeDelay(20)
+    .typeString('Salut')
     .start()
-
-
