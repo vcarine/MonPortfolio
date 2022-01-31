@@ -440,3 +440,22 @@ span{
         width: 20px;
     }
 }
+
+@media screen and (max-width: 380px)  {
+    .bienvenue{
+        font-size: 15px!important;
+    }
+    .text-animation{
+        font-size: 12px!important;
+    }
+    
+}
+@media screen and (max-width: 370px)  {
+    .bienvenue{
+        font-size: 17px!important;
+    }
+    .text-animation{
+        font-size: 12px!important;
+    }
+
+}
