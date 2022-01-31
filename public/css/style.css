@@ -289,8 +289,8 @@ span{
 }
 
 .btn-rond {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     bottom: 20px;
     left: 60px;
@@ -311,7 +311,7 @@ span{
 }
 
 .logo-btn-rond-accueil{
-    width: 35px;
+    width: 50px;
 }
 
 .img-thumbnail{
@@ -445,17 +445,104 @@ span{
     .bienvenue{
         font-size: 15px!important;
     }
-    .text-animation{
-        font-size: 12px!important;
-    }
-    
-}
-@media screen and (max-width: 370px)  {
-    .bienvenue{
-        font-size: 17px!important;
-    }
-    .text-animation{
-        font-size: 12px!important;
+    .text-animation {
+        font-size: 13px !important;
     }
 
 }
+
+@media screen and (max-width: 370px) {
+    .bienvenue {
+        font-size: 15px !important;
+    }
+
+    .text-animation {
+        font-size: 12px !important;
+    }
+
+}
+
+/*section Presentation*/
+
+.presentation {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
+    color: #e7e7e7;
+}
+
+.font-couleur {
+    background: #485563 linear-gradient(to right, #29323c, #485563);
+    width: 2300px;
+    height: 1000px;
+    position: absolute;
+    transform: rotate(-45deg) translateX(100px) translateY(-15px);
+    z-index: -1;
+}
+
+.titre-presentation {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0 70px 0;
+    padding-left: 300px;
+}
+
+.container-presentation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 130px 0;
+    flex-shrink: 0;
+    padding-left: 300px;
+}
+
+.presentation-gauche {
+    width: 600px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.presentation-gauche h3 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.presentation-gauche hr {
+    width: 60px;
+    margin: 0 auto 20px auto;
+}
+
+.presentation-gauche p {
+    text-align: justify;
+}
+
+.presentation-droite {
+    width: 600px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.liste-presentation {
+    list-style-type: none;
+    padding: 10px 0 50px 110px;
+}
+
+.chiffre-style {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 40px;
+}
+
+.txt-liste {
+    font-size: 27px;
+    display: inline;
+}
+
+
+
