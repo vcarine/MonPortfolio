@@ -639,11 +639,12 @@ portfolio {
 .item {
     margin: 20px;
     width: 420px;
-    height: 400px;
+    height: 500px;
     background: #f0f2f0;
     color: #333;
     transition: transform 0.3s ease-out;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
 }
 .item:hover {
     transform: translateY(-5px);
