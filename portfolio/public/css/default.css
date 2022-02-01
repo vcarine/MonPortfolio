@@ -82,6 +82,8 @@ span {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .photo:hover {
     width: 100%;
@@ -92,9 +94,7 @@ span {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    /*  width: 200px;
-      height: 200px;
-      margin-bottom: 15px;*/
+    transform: translateY(-5px);
 }
 
 .monImage {

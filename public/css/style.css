@@ -8,7 +8,7 @@
 }
 
 
-/*Général*/
+/*-------------------------GENERAL-----------------------------------------*/
 
 html{
     scroll-behavior: smooth;
@@ -19,7 +19,7 @@ body{
 }
 
 
-/*Navigation*/
+/*------------------------- NAVIGATION-----------------------------------------*/
 
 .nav-gauche{
     width: 300px;
@@ -69,7 +69,7 @@ body{
     width: 100%;
 }
 
-/*Portrait*/
+/*-------------------------PORTRAIT-----------------------------------------*/
 
 .blocs-menu:nth-child(1){
     width: 100%;
@@ -111,6 +111,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
+/*------------------------MEDIA PORTRAIT 1300PX -----------------------------------------*/
 
 @media screen and (max-width: 1300px) {
     .nav-gauche {
@@ -186,7 +187,7 @@ body{
         border-radius: 5px;
     }
 
-/*    Animation des barres */
+    /*----------------------------    Animation des barres -------------------------------*/
     .conteneur-ligne.active .ligne-unique::after {
         top: 0;
         transform: rotate(45deg);
@@ -204,7 +205,7 @@ body{
     }
 }
 
-                    /*Accueil*/
+/*-------------------------SECTION ACCUEIL-----------------------------------------*/
 
 .accueil{
     background-size: cover;
@@ -292,6 +293,7 @@ span{
     animation: pulse 1.3s infinite;
 }
 
+
 @keyframes pulse {
     to{
         box-shadow: 0 0 0 8px rgba(255,255,255,0.01);
@@ -304,7 +306,7 @@ span{
     margin: 5px;
 }
 
-/*Media Accueil*/
+/*------------------------MEDIA ACCUEIL 1300PX -----------------------------------------*/
 
 @media screen and (max-width: 1300px){
     .accueil{
@@ -445,7 +447,7 @@ span{
 
 }
 
-/*section Presentation*/
+/*-------------------------SECTION PRESENTATION-----------------------------------------*/
 
 .presentation {
     width: 100%;
@@ -482,8 +484,6 @@ span{
     flex-shrink: 0;
     padding-left: 300px;
 }
-
-
 
 .presentation-gauche {
     width: 600px;
@@ -536,7 +536,7 @@ span{
     display: inline;
 }
 
-/*Media Présentation*/
+/*---------------------------------Media Présentation------------------------------*/
 @media screen and (max-width: 1300px) {
     .container-presentation {
         padding-left: 0px;
@@ -603,13 +603,59 @@ span{
         font-size: 24px;
         margin: 0 10px ;
     }
-    .chiffre-style{
+
+    .chiffre-style {
         font-size: 30px;
     }
-    .text-animation{
+
+    .text-animation {
         font-size: 17px;
     }
 
-
 }
 
+/*-------------------------SECTION PORTFOLIO-----------------------------------------*/
+
+portfolio {
+    width: 100%;
+}
+.titre-port {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+    padding-left: 300px;
+}
+
+.cont-portfolio {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 100px auto;
+    padding-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    margin: 20px;
+    width: 420px;
+    height: 400px;
+    background: #f0f2f0;
+    color: #333;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.item:hover {
+    transform: translateY(-5px);
+}
+.cont-img-port {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+.cont-img-port img {
+    width: 50%;
+    height: auto;
+    margin: 50px;
+}
