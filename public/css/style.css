@@ -245,25 +245,28 @@ span{
     justify-content: center;
     align-items: center;
     color: #f1f1f1;
-    margin: 10px 0 0  0 ;
+    margin: 50px;
     border-radius: 2px;
     font-size: 18px;
     transition: transform 0.2s ease-in-out;
 }
-.btn-accueil:hover{
-  /*  transform: scale(1.10);*/
+
+.btn-accueil:hover {
+    transform: scale(1.10);
     background-color: chocolate;
 }
-.btn-accueil1{
+
+.btn-accueil1 {
     margin: 10px 0 0 60px;
 }
-.btn-accueil2{
+
+.btn-accueil2 {
     background: transparent;
     border: 2px solid black;
     color: black;
 }
 
-.btn-accueil2{
+.btn-accueil2 {
     font-weight: 700;
 }
 .medias{
@@ -316,7 +319,7 @@ span{
 }
 @media screen and (max-width: 1000px){
     .accueil{
-        width: 700px;
+      /*  width: 700px;*/
         min-height: 0 ;
     }
     h1{
@@ -617,11 +620,10 @@ span{
 /*-------------------------SECTION PORTFOLIO-----------------------------------------*/
 
 portfolio {
-    width: 100%;
+/*    width: 100%;*/
 }
 .titre-port {
     text-align: center;
-    padding: 50px 0;
     font-size: 50px;
     padding-left: 300px;
 }
@@ -630,7 +632,7 @@ portfolio {
     width: 100%;
     height: auto;
     margin: 0 auto 100px auto;
-    padding-left: 300px;
+    padding-left: 250px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -639,11 +641,11 @@ portfolio {
 .item {
     margin: 20px;
     width: 420px;
-    height: 500px;
+    height: 400px;
     background: #f0f2f0;
     color: #333;
     transition: transform 0.3s ease-out;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 .item:hover {
@@ -655,8 +657,91 @@ portfolio {
     overflow: hidden;
     text-align: center;
 }
+
 .cont-img-port img {
     width: 50%;
     height: auto;
     margin: 50px;
 }
+
+.item h3 {
+    padding: 10px 10px 0;
+    font-size: 22px;
+}
+
+item p {
+
+    padding: 10px 10px 0;
+}
+
+.btn-projets {
+    display: inline-block;
+    margin: 30px;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-projets:hover {
+
+    transform: scale(1.10);
+    background-color: chocolate;
+    color: #333;
+}
+
+
+.btn-projets::after {
+    content: '';
+    height: 240px;
+    width: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    position: absolute;
+    left: -150px;
+    top: -50px;
+    transform: rotate(-45deg)
+}
+
+/*---------------------------------Media PORTFOLIO------------------------------*/
+@media screen and (max-width: 1300px) {
+    .cont-portfolio {
+        padding-left: 0;
+    }
+
+    .titre-port {
+        font-size: 40px;
+        margin: 50px 0 70px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titre-port {
+        margin: 10px 0;
+        padding: 30px 0;
+    }
+    .item{
+        height:420px;
+    }
+    .cont-img-port{
+        height:auto;
+    }
+}
+@media screen and (max-width: 340px) {
+
+    .item {
+        height: 380px;
+    }
+}
+
+
+
+

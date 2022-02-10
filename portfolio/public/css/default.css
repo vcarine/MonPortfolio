@@ -86,10 +86,10 @@ span {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .photo:hover {
-    width: 100%;
+   width: 100%;
     height: auto;
-    background-color: #333;
-    color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #333;
     margin: 50px auto;
     padding: 20px;
     border-radius: 5px;
@@ -105,6 +105,23 @@ span {
     width: calc(100% - 300px);
     margin-left: auto;
     position: relative;
+
+}
+
+.btn-projets {
+
+
+    border: 2px solid #333;
+    border-radius: 3px;
+
+
+}
+
+.btn-projets:hover {
+
+    border: 2px solid #f1f1f1;
+    border-radius: 3px;
+
 
 }
 
