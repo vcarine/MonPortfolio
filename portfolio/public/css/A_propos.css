@@ -1,0 +1,57 @@
+/*Général*/
+
+
+/*BODY*/
+body {
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    /*    background-color: #7f8c8d;*/
+    /*   background-image: url("https://www.hertzpageo.com/img/blog/fr/FR%20BLOG/2017/Faro%20IN%20TEXT.jpg");*/
+    /* background-attachment: scroll;*/
+    /*    background-repeat: no-repeat;*/
+    /* background-attachment: fixed;*/
+    /*    background-position: left;*/
+}
+
+/*HEADER*/
+header {
+    text-align: center;
+    color: white;
+    background-image: url("../../image/ordi1.jpg"); /* a toi de voir */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Préserve le ratio de l'image */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#fondecran {
+    /* Fixe l'image en haut à gauche de la page */
+    position: fixed;
+    top: 0;
+    left: 0;
+/*    !* Préserve le ratio de l'image *!
+    min-width: 50%;
+    min-height: 100%;*/
+}
+img.fondecran {
+    /* On met en place le fond d'écran */
+    min-height: 50%;
+    min-width: 100px;
+    /* On indique un redimensionnement proportionnel */
+/*    width: 50%;
+    height: auto;*/
+    /* L'image est positionnée en haut à gauche */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
