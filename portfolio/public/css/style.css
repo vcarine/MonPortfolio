@@ -209,7 +209,7 @@ body{
 
 .accueil{
     background-size: cover;
-    background: url(../../portfolio/image/accueil.jpg) no-repeat right;
+    background: url(../../image/accueil.jpg) no-repeat right;
     height: 100vh;
     min-height: 900px;
     width: calc(100% - 300px);
@@ -907,4 +907,19 @@ span{
     .barre-grises {
         width: 300px;
     }
+}
+/* ----------------------------------Contact---------------------------------*/
+
+.contact{
+    width: 100%;
+    height: auto;
+
+}
+.contact h2{
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 10px 0 0 400px;
 }
