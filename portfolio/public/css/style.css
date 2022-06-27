@@ -483,7 +483,7 @@ span{
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 130px 0;
+    margin: 50px 0 50px 0;
     flex-shrink: 0;
     padding-left: 300px;
 }
@@ -991,7 +991,10 @@ span{
 }
 @media screen and (max-width: 500px) {
 
+    .contact h2{
+        padding: 10px 30px 0 50px;
+    }
     .contact a{
-        padding: 10px 0 0 150px;
+        padding: 10px 0 0 100px;
     }
 }
