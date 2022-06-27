@@ -923,3 +923,75 @@ span{
     margin-bottom: 10px;
     padding: 10px 0 0 400px;
 }
+.contact a{
+    padding: 10px 0 0 950px;
+    color: #333;
+    font-weight: bold;
+}
+/* ----------------------------------Medias CONTACT---------------------------------*/
+@media screen and (max-width: 1600px) {
+
+    .contact a{
+        padding: 10px 0 0 850px;
+    }
+}
+@media screen and (max-width: 1500px) {
+
+    .contact a{
+        padding: 10px 0 0 800px;
+    }
+}
+@media screen and (max-width: 1400px) {
+
+    .contact a{
+        padding: 10px 0 0 750px;
+    }
+}
+@media screen and (max-width: 1300px) {
+
+    .contact h2{
+        padding: 10px 0 0 100px;
+    }
+    .contact a{
+        padding: 10px 0 0 550px;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .contact a{
+        padding: 10px 0 0 500px;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .contact a{
+        padding: 10px 0 0 450px;
+    }
+}
+@media screen and (max-width: 900px) {
+
+    .contact h2{
+        padding: 10px 0 0 50px;
+    }
+    .contact a{
+        padding: 10px 0 0 350px;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .contact a{
+        padding: 10px 0 0 280px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .contact a{
+        padding: 10px 0 0 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .contact a{
+        padding: 10px 0 0 150px;
+    }
+}
