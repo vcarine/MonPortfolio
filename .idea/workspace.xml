@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41620b2-c964-4fe0-a64b-acd3972d1f71" name="Changes" comment="modif css et index">
+    <list default="true" id="d41620b2-c964-4fe0-a64b-acd3972d1f71" name="Changes" comment="modif css et index presentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,8 @@
       <workItem from="1656260311237" duration="3281000" />
       <workItem from="1656316477663" duration="165000" />
       <workItem from="1656318560978" duration="612000" />
-      <workItem from="1656330947248" duration="2508000" />
+      <workItem from="1656330947248" duration="2530000" />
+      <workItem from="1656338294828" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="modif">
       <created>1656259622002</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656332414912</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modif css et index presentation">
+      <created>1656333490141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656333490141</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modif" />
     <MESSAGE value="modif css et index" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif css et index" />
+    <MESSAGE value="modif css et index presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif css et index presentation" />
   </component>
 </project>

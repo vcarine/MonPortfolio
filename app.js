@@ -54,13 +54,13 @@ typewriter
     .typeString('<span style="color: midnightblue;"> Angular,Js</span> ')
     .pauseFor(1000)
     .deleteChars(11)
-    .typeString(' Application !')
+    .typeString(' Applications !')
     .pauseFor(1000)
     .deleteChars(13)
     .typeString('<span style="color: #EA39ff;"> Php, Symfony, Wordpress</span> ')
     .pauseFor(1000)
     .deleteChars(25)
 
-    .typeString(' Full-Stack et Application !')
+    .typeString(' Full-Stack et Applications !')
 
     .start()
